@@ -66,7 +66,7 @@ If you do not remember the directory, you could retrieve it as follows.
 Note that Azure Stack One Node host needs to be added to TrustedHosts as described in the VPN section above.
 
 ```powershell
-$AadTenant = Get-AzureStackAadTenant -HostComputer "<Azure Stack host address>" -Password $Password
+need to be $AadTenant = "AadTenan.onmicrosoft.com"
 Add-AzureStackAzureRmEnvironment -AadTenant $AadTenant
 ``` 
 
