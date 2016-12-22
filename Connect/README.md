@@ -66,7 +66,11 @@ If you do not remember the directory, you could retrieve it as follows.
 Note that Azure Stack One Node host needs to be added to TrustedHosts as described in the VPN section above.
 
 ```powershell
+<<<<<<< .merge_file_a36668
 need to be $AadTenant = "AadTenan.onmicrosoft.com"
+=======
+$AadTenant = "<mydirectory>.onmicrosoft.com"
+>>>>>>> .merge_file_a28156
 Add-AzureStackAzureRmEnvironment -AadTenant $AadTenant
 ``` 
 
